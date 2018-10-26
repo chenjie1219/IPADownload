@@ -1,0 +1,9 @@
+{
+  "commitish" : "4.4.2",
+  "Mac" : [
+    {
+      "name" : "SDWebImage",
+      "hash" : "2424a5a4b7bbb4743c2045ee160a6722b4b6bad2fd01edde45b3c6d62bbe7991"
+    }
+  ]
+}
