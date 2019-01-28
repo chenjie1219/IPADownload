@@ -5,4 +5,4 @@
 
 **所下载的文件仅供逆向工程研究使用**。
 
-![screenshot](Assets/screenshot.png)
+![screenshot](Assets/screenshot.gif)
