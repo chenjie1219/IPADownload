@@ -6,18 +6,14 @@
  * file that was distributed with this source code.
  */
 
-#ifdef SD_WEBP
-
 #import <Foundation/Foundation.h>
-#import "SDWebImageCoder.h"
+#import "SDWebImageCompat.h"
 
-/**
- Built in coder that supports WebP and animated WebP
- */
-@interface SDWebImageWebPCoder : NSObject <SDWebImageProgressiveCoder>
+@interface SDWeakProxy : NSProxy
 
-+ (nonnull instancetype)sharedCoder;
+@property (nonatomic, weak, readonly, nullable) id target;
+
+- (nonnull instancetype)initWithTarget:(nonnull id)target;
++ (nonnull instancetype)proxyWithTarget:(nonnull id)target;
 
 @end
-
-#endif

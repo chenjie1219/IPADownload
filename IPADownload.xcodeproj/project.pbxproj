@@ -20,7 +20,6 @@
 		9668E3C0218049C0005EC44C /* resultCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668E3BF218049C0005EC44C /* resultCellView.swift */; };
 		9668E3C321804C0B005EC44C /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9668E3C121804C06005EC44C /* SDWebImage.framework */; };
 		9668E3C421804C0B005EC44C /* SDWebImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9668E3C121804C06005EC44C /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9668E3C82180569B005EC44C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9668E3C72180569B005EC44C /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -186,7 +185,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = Jason;
 				TargetAttributes = {
 					9668E3932180087F005EC44C = {
@@ -224,7 +223,6 @@
 			files = (
 				9668E39C21800880005EC44C /* Assets.xcassets in Resources */,
 				9668E39F21800880005EC44C /* Main.storyboard in Resources */,
-				9668E3C82180569B005EC44C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IPADownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -412,7 +410,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.IPADownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

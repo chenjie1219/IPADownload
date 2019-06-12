@@ -1,9 +1,13 @@
 {
-  "commitish" : "4.4.2",
+  "commitish" : "5.0.6",
   "Mac" : [
     {
+      "name" : "SDWebImageMapKit",
+      "hash" : "214bc440c6c0145b94fe92925f4c264cee702dc780e949c82134c5c01d4a9eca"
+    },
+    {
       "name" : "SDWebImage",
-      "hash" : "2424a5a4b7bbb4743c2045ee160a6722b4b6bad2fd01edde45b3c6d62bbe7991"
+      "hash" : "85c3f4f910cb7be145dcad34f5243b8f706aba3158fbf6c3f0c99238840a6347"
     }
   ]
 }

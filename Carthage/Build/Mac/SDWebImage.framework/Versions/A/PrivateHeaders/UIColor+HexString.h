@@ -8,16 +8,11 @@
 
 #import "SDWebImageCompat.h"
 
-#if SD_MAC
+@interface UIColor (HexString)
 
-#import <Cocoa/Cocoa.h>
-
-@interface NSImage (WebCache)
-
-- (CGImageRef)CGImage;
-- (NSArray<NSImage *> *)images;
-- (BOOL)isGIF;
+/**
+ Convenience way to get hex string from color. The output should always be 32-bit RGBA hex string like `#00000000`.
+ */
+@property (nonatomic, copy, readonly, nonnull) NSString *sd_hexString;
 
 @end
-
-#endif
